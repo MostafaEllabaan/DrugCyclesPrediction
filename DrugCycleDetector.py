@@ -1,5 +1,10 @@
 import copy;  from collections import Counter; import sys;
 
+
+## infile: is one that include the information collateral sensitivity profile of each drug
+## outfile: this will be the outputfile that have all possible cycles
+## maxLimit: this is the maximum limit if you choice to a maximum number of drugs per cycles. if not sure just make the largest possible
+
 infile=sys.argv[1]; outfile=sys.argv[2]; maxLimit=sys.argv[3];
 #print infile , outfile, maxLimit,  ## read file 
 
